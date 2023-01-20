@@ -1,0 +1,22 @@
+Client commands:
+	help: get help
+	clear: clear console
+
+Server commands:
+	login [username] [password]: login if you have account
+	register [username] [password]: create new account
+	logout: logout
+	alogin [admin name] [password]: login as admin
+	stats: shows your account stats
+	get_rooms: get available rooms list
+	create_room [room name]: create new room
+	room [room name]: join room
+	rchat [message]: room chat
+	cancel_room: cancel your room (room will be deleted if you are creator!)
+	my_room: shows your current room
+	message [user] [message]: personal message to user
+	close_open_pm: close/opens personal messages to you
+	
+Admin commands:
+	all_clients: get online clients list
+	delete_room [room name]: delete room
