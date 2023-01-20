@@ -4,7 +4,7 @@ import os
 from logo import print_logo
 import hashlib
 
-# --------------------- CONSOLE CLIENT ---------------------
+# --------------------- CONSOLE CLIENT ----------------------
 
 
 class Client:
