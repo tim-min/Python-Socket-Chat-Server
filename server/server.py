@@ -158,6 +158,7 @@ class Server:
             return "[Error] You already in the room!"
         client.room_name = args[0]
         room_index = self.room_names.index(args[0])
+        self.rooms[room_index].send_message(f"(System) - {client.username} joined your room!")
         self.rooms[room_index].members.append(client)
         return 1
     
